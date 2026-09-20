@@ -1,7 +1,7 @@
 {
-  "version": "5.2.0",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.2.0/MDTPlatform-Windows.zip",
-  "sha256": "8ec13d43ca9e80ca83aaad86bf29cd9582174bd9add8dd23f9fd70a2486b6a67",
-  "notes": "LANCSMDT v5.2.0 - appliance availability management, standby moves, dynamic cover warnings, expanded call-taking workflow, and Control acknowledgement of client-originated MDT status changes.",
-  "publishedAt": "2026-09-20T19:56:45Z"
+  "version": "5.2.1",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.2.1/MDTPlatform-Windows.zip",
+  "sha256": "20fba8b906e55068ccea4da3d36758e122766c6d44dab751e8cd21a6ef35dc5f",
+  "notes": "LANCSMDT v5.2.1 - fleet callsign correction release, including corrected Preston, Bamber Bridge, Darwen, Clitheroe, Nelson and Colne appliance identifiers.",
+  "publishedAt": "2026-09-20T20:17:18Z"
 }
