@@ -1,7 +1,7 @@
 {
-  "version": "5.1.3",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.1.3/MDTPlatform-Windows.zip",
-  "sha256": "4ad82384279a98459e50ac73939a6fb3728ddb829a95df3856141b2963993bf5",
-  "notes": "LANCSMDT v5.1.3 - updater validation release for the corrected v5.1.2 cache-safe update checker and independent install/restart workflow.",
-  "publishedAt": "2026-09-20T19:05:55Z"
+  "version": "5.2.0",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.2.0/MDTPlatform-Windows.zip",
+  "sha256": "8ec13d43ca9e80ca83aaad86bf29cd9582174bd9add8dd23f9fd70a2486b6a67",
+  "notes": "LANCSMDT v5.2.0 - appliance availability management, standby moves, dynamic cover warnings, expanded call-taking workflow, and Control acknowledgement of client-originated MDT status changes.",
+  "publishedAt": "2026-09-20T19:56:45Z"
 }
