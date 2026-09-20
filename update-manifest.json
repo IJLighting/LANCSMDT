@@ -1,7 +1,7 @@
 {
-  "version": "5.3.1",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.3.1/MDTPlatform-Windows.zip",
-  "sha256": "f7a8c905583a8252a32bfd0438757d89a300be2d51cc74e336ed5754109cbaf0",
-  "notes": "LANCSMDT v5.3.1 - messaging hotfix restoring Control-to-MDT and MDT-to-Control text messaging compatibility while retaining priority and emergency messaging.",
-  "publishedAt": "2026-09-20T20:34:37Z"
+  "version": "5.3.2",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.3.2/MDTPlatform-Windows.zip",
+  "sha256": "d1837d26c44019ee8013d31d0429fd664da153cc6fa62ed7915edff4d5d865a1",
+  "notes": "LANCSMDT v5.3.2 - Control-to-MDT callsign routing hotfix with normalized callsign targeting, live connected-client delivery, queued fallback, and explicit delivery status.",
+  "publishedAt": "2026-09-20T20:42:19Z"
 }
