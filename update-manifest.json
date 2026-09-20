@@ -1,7 +1,7 @@
 {
-  "version": "5.1.0",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.1.0/MDTPlatform-Windows.zip",
-  "sha256": "f92a14685bd0cdbd6cf928825fdd52ec074138642ccc2f7b370c5509b3b49708",
-  "notes": "LANCSMDT v5.1.0 - Incident Operations Update: incident timeline, active incident board, MDT-to-Control messaging and appliance assistance requests.",
-  "publishedAt": "2026-09-20T17:50:22Z"
+  "version": "5.1.1",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.1.1/MDTPlatform-Windows.zip",
+  "sha256": "6c6e676a367fb114829e588b6edacca3365d9ee07a928208dbc1baedf732043b",
+  "notes": "LANCSMDT v5.1.1 - fixes recommended-appliance selection across successive incidents and moves update installation/restart into an independent Windows updater with health-check and rollback.",
+  "publishedAt": "2026-09-20T18:36:08Z"
 }
