@@ -1,7 +1,7 @@
 {
-  "version": "5.1.1",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.1.1/MDTPlatform-Windows.zip",
-  "sha256": "6c6e676a367fb114829e588b6edacca3365d9ee07a928208dbc1baedf732043b",
-  "notes": "LANCSMDT v5.1.1 - fixes recommended-appliance selection across successive incidents and moves update installation/restart into an independent Windows updater with health-check and rollback.",
-  "publishedAt": "2026-09-20T18:36:08Z"
+  "version": "5.1.2",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.1.2/MDTPlatform_v5_1_2_Windows.zip",
+  "sha256": "9b5caa265934ba62ebe51a80837a2af6f6d64639941aa774862c559629e77523",
+  "notes": "LANCSMDT v5.1.2 - updater validation release. No major functional changes; used to validate the v5.1.1 independent updater, restart, health-check and rollback workflow.",
+  "publishedAt": "2026-09-20T18:56:46Z"
 }
