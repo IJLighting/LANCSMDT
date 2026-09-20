@@ -1,7 +1,7 @@
 {
-  "version": "5.3.0",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.3.0/MDTPlatform-Windows.zip",
-  "sha256": "78056fb1a1561c37467281e924a77971edaf5a48bd9c5e98d263fc642547b3c8",
-  "notes": "LANCSMDT v5.3.0 - expanded Control UI tabs, incident command and resource management, autonomous turnout simulation, ETA and cover boards, structured escalation, priority/emergency messaging, MDT emergency alerts, and removal of DEMO-* appliances.",
-  "publishedAt": "2026-09-20T20:25:36Z"
+  "version": "5.3.1",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.3.1/MDTPlatform-Windows.zip",
+  "sha256": "f7a8c905583a8252a32bfd0438757d89a300be2d51cc74e336ed5754109cbaf0",
+  "notes": "LANCSMDT v5.3.1 - messaging hotfix restoring Control-to-MDT and MDT-to-Control text messaging compatibility while retaining priority and emergency messaging.",
+  "publishedAt": "2026-09-20T20:34:37Z"
 }
