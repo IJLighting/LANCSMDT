@@ -1,7 +1,7 @@
 {
-  "version": "4.9.0",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V4.9.0/MDTPlatform-Windows.zip",
-  "sha256": "9c06d3e6edb5bcc9ae8df535f5cea2a38bed641ac2fa487ec6fdc9178ed73d4e",
-  "notes": "LANCSMDT v4.9.0 - GitHub self-update baseline.",
-  "publishedAt": "2026-09-20T17:12:21Z"
+  "version": "5.0.0",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.0.0/MDTPlatform-Windows.zip",
+  "sha256": "94db7e844f058aa3ee462a13e19f051e0182433e4ebe6b8d21bd3bed02be651a",
+  "notes": "LANCSMDT v5.0.0 - redesigned Control UI with the GitHub self-update channel retained.",
+  "publishedAt": "2026-09-20T17:22:39Z"
 }
