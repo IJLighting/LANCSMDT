@@ -1,7 +1,7 @@
 {
-  "version": "5.0.2",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.0.2/MDTPlatform_v5_0_2_Windows.zip",
-  "sha256": "8fd1286b066054c0be8fa48913335f754d16059908f6045c25cb175bb2edbfce",
-  "notes": "LANCSMDT v5.0.2 - fixes recommended-appliance selection and targeted Control-to-MDT messages with unread flashing/history.",
-  "publishedAt": "2026-09-20T17:36:46Z"
+  "version": "5.0.3",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.0.3/MDTPlatform-Windows.zip",
+  "sha256": "f0099085a53ecdd59ca722e3dca00da5ee9924a029679af2065f94c864b0bc2e",
+  "notes": "LANCSMDT v5.0.3 - fixes Control update API paths and adds clearer updater diagnostics; retains v5.0.2 allocation and MDT messaging fixes.",
+  "publishedAt": "2026-09-20T17:45:11Z"
 }
