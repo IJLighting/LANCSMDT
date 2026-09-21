@@ -1,7 +1,7 @@
 {
-  "version": "5.4.1",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.4.1/MDTPlatform-Windows.zip",
-  "sha256": "bc3fba413041864a16696229754b87a281ce6f1e0f7db2f6d84088a5621e42dd",
-  "notes": "LANCSMDT v5.4.1 - Fixes MDT Stop Message/Clear HTTP 409 failures by improving incident and appliance resolution, and reports the actual server rejection reason when a clear cannot be completed. Retains the v5.4.0 GPS sat-nav update and existing messaging, registration, updater and alert sound.",
-  "publishedAt": "2026-09-21T16:51:40Z"
+  "version": "5.4.4",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.4.4/MDTPlatform-Windows.zip",
+  "sha256": "ca67fa990b584528b3706d4c4f97b81d904b7bb873b2743f2945d62ca0d5a98a",
+  "notes": "LANCSMDT v5.4.4 - Live client GPS tracking on Control and MDT maps with high-accuracy continuous positioning, 2 metre movement updates and live-position heartbeats. Includes the v5.4.2 call type/PDA catalogue, v5.4.1 Stop Message/Clear fix and v5.4.0 sat-nav improvements.",
+  "publishedAt": "2026-09-21T23:07:29Z"
 }
