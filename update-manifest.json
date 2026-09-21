@@ -1,7 +1,7 @@
 {
-  "version": "5.5.5",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.5.5/MDTPlatform-Windows.zip",
-  "sha256": "2a53381e7d160f1c709eab7e3778ba00e55448d4da2e59c13910eea4c8d13762",
-  "notes": "LANCSMDT v5.5.5 - Active Standby Moves board with appliance, home station, standby station and incident linkage; incident-linked standby appliances are automatically released when the originating call closes. Includes corrected home-station map positioning, simplified standby controls, WHOLETIME/RETAINED classifications, smart PDA recommendations and live GPS tracking.",
-  "publishedAt": "2026-09-21T23:36:29Z"
+  "version": "5.6.0",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.6.0/MDTPlatform-Windows.zip",
+  "sha256": "90dd95f98f03df56ce9e23a64d98ab861fdb25e2e40e60ccf0989acd78beaee2",
+  "notes": "LANCSMDT v5.6.0 - Operations and training expansion with resource search/details and SRT filtering, GPS history/trails, expanded incident command roles, improved dynamic PDA escalation, structured incident developments, BA training data, shared incident annotations/hydrant state, Cover standby management, instructor scenarios/injects, incident replay access, MDT connection diagnostics, searchable audit data and backup/restore support.",
+  "publishedAt": "2026-09-21T23:47:03Z"
 }
