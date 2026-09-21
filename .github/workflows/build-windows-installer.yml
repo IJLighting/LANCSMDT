@@ -1,0 +1,93 @@
+name: Build Windows Installer
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "GitHub release tag containing MDTPlatform-Windows.zip"
+        required: true
+        default: "V5.3.5"
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build-installer:
+    runs-on: windows-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Select release tag
+        shell: pwsh
+        run: |
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") {
+            "RELEASE_TAG=${{ inputs.release_tag }}" | Out-File -FilePath $env:GITHUB_ENV -Append
+          } else {
+            "RELEASE_TAG=${{ github.event.release.tag_name }}" | Out-File -FilePath $env:GITHUB_ENV -Append
+          }
+
+      - name: Download LANCSMDT release package
+        shell: pwsh
+        run: |
+          gh release download "$env:RELEASE_TAG" --repo "$env:GITHUB_REPOSITORY" --pattern "MDTPlatform-Windows.zip" --output "MDTPlatform-Windows.zip"
+
+      - name: Extract release package
+        shell: pwsh
+        run: |
+          Expand-Archive -Path "MDTPlatform-Windows.zip" -DestinationPath "source" -Force
+          $pkg = Get-ChildItem -Path "source" -Filter "package.json" -Recurse |
+            Where-Object { $_.Directory.Name -eq "desktop" } |
+            Select-Object -First 1
+          if (-not $pkg) { throw "Could not find desktop package.json in release package." }
+          "DESKTOP_DIR=$($pkg.Directory.FullName)" | Out-File -FilePath $env:GITHUB_ENV -Append
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install build dependencies
+        shell: pwsh
+        working-directory: ${{ env.DESKTOP_DIR }}
+        run: |
+          if (Test-Path "package-lock.json") {
+            npm ci
+          } else {
+            npm install
+          }
+
+      - name: Build Windows installer
+        shell: pwsh
+        working-directory: ${{ env.DESKTOP_DIR }}
+        run: npm run dist:win
+
+      - name: Verify installer
+        shell: pwsh
+        run: |
+          $exe = Get-ChildItem -Path "$env:DESKTOP_DIR\dist" -Filter "*Setup*.exe" -File |
+            Sort-Object LastWriteTime -Descending |
+            Select-Object -First 1
+          if (-not $exe) {
+            Get-ChildItem -Path "$env:DESKTOP_DIR\dist" -Recurse -ErrorAction SilentlyContinue
+            throw "Installer EXE was not produced."
+          }
+          $version = (Get-Content "$env:DESKTOP_DIR\package.json" | ConvertFrom-Json).version
+          $target = Join-Path $env:GITHUB_WORKSPACE "LANCSMDT-Setup-v$version.exe"
+          Copy-Item $exe.FullName $target -Force
+          "INSTALLER_PATH=$target" | Out-File -FilePath $env:GITHUB_ENV -Append
+          Get-FileHash $target -Algorithm SHA256
+
+      - name: Upload installer as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: LANCSMDT-Windows-Installer
+          path: ${{ env.INSTALLER_PATH }}
+          if-no-files-found: error
+
+      - name: Attach installer to GitHub release
+        shell: pwsh
+        run: |
+          gh release upload "$env:RELEASE_TAG" "$env:INSTALLER_PATH" --repo "$env:GITHUB_REPOSITORY" --clobber
