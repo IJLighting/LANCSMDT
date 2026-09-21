@@ -1,7 +1,7 @@
 {
-  "version": "5.4.4",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.4.4/MDTPlatform-Windows.zip",
-  "sha256": "ca67fa990b584528b3706d4c4f97b81d904b7bb873b2743f2945d62ca0d5a98a",
-  "notes": "LANCSMDT v5.4.4 - Live client GPS tracking on Control and MDT maps with high-accuracy continuous positioning, 2 metre movement updates and live-position heartbeats. Includes the v5.4.2 call type/PDA catalogue, v5.4.1 Stop Message/Clear fix and v5.4.0 sat-nav improvements.",
-  "publishedAt": "2026-09-21T23:07:29Z"
+  "version": "5.5.1",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.5.1/MDTPlatform-Windows.zip",
+  "sha256": "891a30aa002f63a5644afe1c2c50bb9765c609f4aa23b66fa3aa3e4dfae872df",
+  "notes": "LANCSMDT v5.5.1 - Smart response update with explicit WHOLETIME and RETAINED pump classifications, 40-second retained turnout delay, response-time-aware recommendations, specialist/SRT capability handling and enhanced PDA logic. Includes live GPS tracking and previous v5.4.x fixes.",
+  "publishedAt": "2026-09-21T23:20:25Z"
 }
