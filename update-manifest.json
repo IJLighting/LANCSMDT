@@ -1,7 +1,7 @@
 {
-  "version": "5.5.3",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.5.3/MDTPlatform-Windows.zip",
-  "sha256": "2612a8a6b41f5403cc900e36070ad4f077b3658ba52592715f758f0b47a482e6",
-  "notes": "LANCSMDT v5.5.3 - Simplified manual standby workflow with appliance selection, destination station selection and a clear Send Standby action. Includes home-station startup positioning, WHOLETIME/RETAINED classifications, smart PDA recommendations, live GPS tracking and previous v5.4.x/v5.5.x fixes.",
-  "publishedAt": "2026-09-21T23:25:55Z"
+  "version": "5.5.5",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.5.5/MDTPlatform-Windows.zip",
+  "sha256": "2a53381e7d160f1c709eab7e3778ba00e55448d4da2e59c13910eea4c8d13762",
+  "notes": "LANCSMDT v5.5.5 - Active Standby Moves board with appliance, home station, standby station and incident linkage; incident-linked standby appliances are automatically released when the originating call closes. Includes corrected home-station map positioning, simplified standby controls, WHOLETIME/RETAINED classifications, smart PDA recommendations and live GPS tracking.",
+  "publishedAt": "2026-09-21T23:36:29Z"
 }
