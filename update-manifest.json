@@ -1,7 +1,7 @@
 {
-  "version": "5.5.1",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.5.1/MDTPlatform-Windows.zip",
-  "sha256": "891a30aa002f63a5644afe1c2c50bb9765c609f4aa23b66fa3aa3e4dfae872df",
-  "notes": "LANCSMDT v5.5.1 - Smart response update with explicit WHOLETIME and RETAINED pump classifications, 40-second retained turnout delay, response-time-aware recommendations, specialist/SRT capability handling and enhanced PDA logic. Includes live GPS tracking and previous v5.4.x fixes.",
-  "publishedAt": "2026-09-21T23:20:25Z"
+  "version": "5.5.3",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.5.3/MDTPlatform-Windows.zip",
+  "sha256": "2612a8a6b41f5403cc900e36070ad4f077b3658ba52592715f758f0b47a482e6",
+  "notes": "LANCSMDT v5.5.3 - Simplified manual standby workflow with appliance selection, destination station selection and a clear Send Standby action. Includes home-station startup positioning, WHOLETIME/RETAINED classifications, smart PDA recommendations, live GPS tracking and previous v5.4.x/v5.5.x fixes.",
+  "publishedAt": "2026-09-21T23:25:55Z"
 }
