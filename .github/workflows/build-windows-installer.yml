@@ -45,9 +45,9 @@ jobs:
           "DESKTOP_DIR=$($pkg.Directory.FullName)" | Out-File -FilePath $env:GITHUB_ENV -Append
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Install build dependencies
         shell: pwsh
@@ -62,7 +62,7 @@ jobs:
       - name: Build Windows installer
         shell: pwsh
         working-directory: ${{ env.DESKTOP_DIR }}
-        run: npm run dist:win
+        run: npm run dist:win -- --publish never
 
       - name: Verify installer
         shell: pwsh
