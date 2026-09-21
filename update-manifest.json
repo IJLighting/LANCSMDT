@@ -1,7 +1,7 @@
 {
-  "version": "5.3.5",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.3.5/MDTPlatform-Windows.zip",
-  "sha256": "21d5632bf5f57d463285542e26d629801f4516c182101e1b0a441fa6e44af8e4",
-  "notes": "LANCSMDT v5.3.5 - Device-based MDT registration, automatic refresh after registration, callsign changes without re-registration, Windows installer build support and installer license-key validation. Includes the v5.3.4 Stop Message and Control incident synchronization changes.",
-  "publishedAt": "2026-09-21T10:17:19Z"
+  "version": "5.4.0",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.4.0/MDTPlatform-Windows.zip",
+  "sha256": "ae988442a4c7c4e77aebe79e8591bd5f43e121866e4c09b04eb1021a3ec8529d",
+  "notes": "LANCSMDT v5.4.0 - GPS sat-nav update with live navigation guidance, remaining distance and ETA, off-route recalculation, arrival detection, improved GPS follow/recentre controls and HTTPS-aware GPS handling. Retains v5.3.5 functionality.",
+  "publishedAt": "2026-09-21T15:30:02Z"
 }
