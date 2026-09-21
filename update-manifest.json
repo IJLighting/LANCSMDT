@@ -1,7 +1,7 @@
 {
-  "version": "5.6.0",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.6.0/MDTPlatform-Windows.zip",
-  "sha256": "90dd95f98f03df56ce9e23a64d98ab861fdb25e2e40e60ccf0989acd78beaee2",
-  "notes": "LANCSMDT v5.6.0 - Operations and training expansion with resource search/details and SRT filtering, GPS history/trails, expanded incident command roles, improved dynamic PDA escalation, structured incident developments, BA training data, shared incident annotations/hydrant state, Cover standby management, instructor scenarios/injects, incident replay access, MDT connection diagnostics, searchable audit data and backup/restore support.",
-  "publishedAt": "2026-09-21T23:47:03Z"
+  "version": "5.6.1",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/v5.6.1/MDTPlatform-Windows.zip",
+  "sha256": "60fd39db8db5fe1f9f7aa96d0d2cc6fa9eeb4fc6c4170b08a0b5d2c79beb87e2",
+  "notes": "LANCSMDT v5.6.1 - Functional operations/training pass with automatic 5-10 minute incident lifecycle after first IA, automatic resource and incident-linked standby release, functional structured escalation, BA training board actions, shared map annotations, GPS trails, instructor injects and backup restore.",
+  "publishedAt": "2026-09-21T23:54:06Z"
 }
