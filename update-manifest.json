@@ -1,7 +1,7 @@
 {
-  "version": "5.3.3",
-  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.3.3/MDTPlatform-Windows.zip",
-  "sha256": "1c4a4f3b9050b5c08a6be621df6f1c2dcc2d0ea231a0741e872a99f071625497",
-  "notes": "LANCSMDT v5.3.3 - Adds a Control button to clear all active unallocated calls while leaving incidents with allocated appliances untouched.",
-  "publishedAt": "2026-09-21T09:59:18Z"
+  "version": "5.3.5",
+  "url": "https://github.com/IJLighting/LANCSMDT/releases/download/V5.3.5/MDTPlatform-Windows.zip",
+  "sha256": "21d5632bf5f57d463285542e26d629801f4516c182101e1b0a441fa6e44af8e4",
+  "notes": "LANCSMDT v5.3.5 - Device-based MDT registration, automatic refresh after registration, callsign changes without re-registration, Windows installer build support and installer license-key validation. Includes the v5.3.4 Stop Message and Control incident synchronization changes.",
+  "publishedAt": "2026-09-21T10:17:19Z"
 }
